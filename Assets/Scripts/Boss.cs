@@ -1,0 +1,89 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using DG.Tweening;
+
+namespace Lance
+{
+    class Boss : Monster
+    {
+        public virtual void OnSpawn()
+        {
+            if (mSpriteLibraryAssetData.sneer)
+            {
+                mAnim.PlaySneer();
+            }
+        }
+
+        public virtual void OnSpawnFinish()
+        {
+
+        }
+
+        public override void OnDamage(DamageInst inst)
+        {
+            if (IsDeath)
+            {
+                inst.OnRelease();
+                inst = null;
+
+                return;
+            }
+
+            // 데미지 입음
+            mStat.OnDamage(inst.Damage);
+
+            UIUtil.ShowDamageText(this, inst.Damage, inst.IsCritical, inst.IsSuperCritical);
+
+            mAnim.PlayHit();
+
+            SoundPlayer.PlayHit(inst.Attacker, inst.Defender);
+
+            Lance.GameManager.OnBossDamage(inst.Damage);
+
+            // 데미지를 입어서 죽었다면 게임 매니저한테 알려주자
+            if (mStat.IsDeath)
+            {
+                OnDeath();
+            }
+
+            inst.OnRelease();
+            inst = null;
+        }
+
+        public override void OnDeath()
+        {
+            mAnim.PlayDeath();
+
+            // 몬스터로 부터 얻을 수 있는 재화를 획득
+            if (mRewardResult.IsEmpty() == false)
+            {
+                var player = Lance.GameManager.StageManager.Player;
+
+                mRewardResult.exp = mRewardResult.exp * (1 + player.Stat.IncreaseExpAmount) * Lance.GameData.CommonData.bossRewardValue;
+                mRewardResult.gold = mRewardResult.gold * (1 + player.Stat.IncreaseGoldAmount) * Lance.GameData.CommonData.bossRewardValue;
+
+                Lance.GameManager.GiveReward(mRewardResult, ShowRewardType.Banner, ignoreUpdatePlayerStat: true);
+            }
+
+            Lance.GameManager.OnMonsterDeath(mRewardResult, mStat.Level);
+
+            Lance.GameManager.CheckBountyQuest(mData.type, mData.id, 1);
+        }
+
+        public override bool AnyInAttackRangeOpponent()
+        {
+            // 현재 착용중인 스킬에 대해서도 확인해야 함
+
+            // 일단은 기본 공격에 대해서만 체크
+            var result = Lance.GameManager.StageManager.AnyInAttackRangeOpponent(this, mStat.AtkRange);
+
+            return result.any;
+        }
+
+        public override float GetBodySize()
+        {
+            return mData.bodySize;
+        }
+    }
+}
