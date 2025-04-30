@@ -25,6 +25,19 @@ Unity로 개발한 2D 방치형 RPG 게임입니다. 자동 전투, 성장, 장�
 
 ---
 
+## 🛠 사용 기술
+
+| 분류 | 기술 |
+|------|------|
+| **게임 엔진** | Unity 6000.0.27f1 |
+| **UI 연출** | DoTween |
+| **데이터 저장** | 뒤끝-BackEnd (BaaS) |
+| **유저 분석** | Firebase Analytics |
+| **광고 수익화** | Google AdMob (Mediation 포함) |
+| **버전 관리** | SVN, TortoiseSVN |
+
+---
+
 ## 🧠 아키텍처 요약
 
 ```csharp
