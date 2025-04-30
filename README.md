@@ -38,11 +38,6 @@ Unity로 개발한 2D 방치형 RPG 게임입니다. 자동 전투, 성장, 장�
 
 ---
 
-## 🧠 아키텍처 요약
+## 🔬 추가 문서
 
-```csharp
-Character.cs (공통 캐릭터 베이스)
-├── Player.cs
-├── Monster.cs
-├── Boss.cs
-└── RaidBoss.cs
+- [💥 전투 데미지 계산 구조 보기](./Docs/DamageSystem.md)
