@@ -34,12 +34,25 @@
 
 ---
 
-### 🆙 레벨업 & AP 시스템
+<table>
+<tr>
+  <td valign="top" style="padding-right:20px">
 
-- 몬스터 처치 시 **경험치**를 획득하여 레벨업
-- 레벨업 시 **AP (Ability Point)** 획득
-- AP를 사용하여 캐릭터의 특성을 강화할 수 있습니다
-- 특성 강화는 일반 능력치 외에 패시브 성향에도 영향을 줄 수 있습니다
+<h3>🆙 레벨업 & AP 시스템</h3>
+
+<ul>
+  <li>몬스터 처치 시 <strong>경험치</strong>를 획득하여 레벨업</li>
+  <li>레벨업 시 <strong>AP (Ability Point)</strong>를 획득</li>
+  <li>AP를 사용하여 캐릭터의 특성을 강화할 수 있습니다</li>
+  <li>특성 강화는 일반 능력치 외에도 <strong>패시브 성향</strong>에 영향을 줄 수 있습니다</li>
+</ul>
+
+  </td>
+  <td width="300" align="center">
+    <img src="https://github.com/user-attachments/assets/bd1c2bec-be53-41e4-9d6f-0969517c96ce" width="280"/>
+  </td>
+</tr>
+</table>
 
 ---
 
