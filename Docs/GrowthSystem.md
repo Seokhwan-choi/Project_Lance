@@ -6,9 +6,9 @@
 
 ## ✅ 주요 성장 루프
 
-<table style="width:700px; table-layout:fixed;">
+<table style="width:700px;>
 <tr>
-  <td style="width: 420px; vertical-align:top; padding-right:20px;">
+  <td style="width:420px; vertical-align:top; padding-right:20px;">
 
 <h3>💰 골드 훈련</h3>
 
