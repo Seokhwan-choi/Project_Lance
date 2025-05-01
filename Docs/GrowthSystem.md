@@ -46,7 +46,19 @@
 
 <ul>
   <li>몬스터 처치 시 <strong>경험치</strong>를 획득하여 레벨업</li>
-  <li
+  <li>레벨업 시 <strong>AP (Ability Point)</strong>를 획득</li>
+  <li>AP를 사용하여 캐릭터의 특성을 강화할 수 있습니다</li>
+</ul>
+
+<!-- 셀 높이 강제 확장 -->
+<div style="min-height:500px;"></div>
+
+  </td>
+  <td style="width:280px;" align="center">
+    <img src="https://github.com/user-attachments/assets/bd1c2bec-be53-41e4-9d6f-0969517c96ce" width="280"/>
+  </td>
+</tr>
+</table>
 
 ---
 
