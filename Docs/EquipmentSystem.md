@@ -18,7 +18,7 @@
 ### ● 장비 합성
 - 같은 **메인 등급과 서브 등급**의 장비 여러 개를 사용하면, 상위 메인 등급의 장비를 획득할 수 있습니다.
 - 장비에는 두 가지 등급이 존재합니다:
-  - **메인 등급**: D → C → B → A → S → SR → SSR
+  - **메인 등급**: D → C → B → A → S → SS -> SSS-> SR → SSR
   - **서브 등급**: 1성 ⭐ ~ 5성 ⭐⭐⭐⭐⭐
 - 예시: `D등급 5성 장비 3개` → `C등급 1성 장비`로 합성됨
 
@@ -46,46 +46,6 @@
 ## 💻 핵심 코드 예시
 
 ```csharp
-// 장비 합성
-public (string id, int combineCount) CombineItem(string id)
-{
-    // 내가 가지고 있는 장비인지 확인
-    if (HaveItem(id) == false)
-        return (string.Empty, 0);
-
-    EquipmentData data = DataUtil.GetEquipmentData(id);
-    if (data == null)
-        return (string.Empty, 0);
-
-    // combineCount가 없다면 합성 진행이 불가능한 것
-    if (data.combineCount == 0)
-        return (string.Empty, 0);
-
-    // 합성에 필요한 장비 갯수가 충분한지 확인
-    EquipmentInst equipItem = GetEquipItem(id);
-    if (equipItem.IsEnoughCount(data.combineCount) == false)
-        return (string.Empty, 0);
-
-    int combineCount = equipItem.GetCount() / data.combineCount;
-    int useCount = data.combineCount * combineCount;
-
-    // 다음 등급 장비 데이터를 확인
-    // 데이터가 없다면 뭔가 잘 못된 것
-    EquipmentData nextData = DataUtil.GetNextGradeEquipmentData(data.type, data.grade, data.subGrade);
-    if (nextData == null)
-        return (string.Empty, 0);
-
-    // 합성 횟수만큼 장비 사용
-    if (equipItem.UseCount(useCount) == false)
-        return (string.Empty, 0);
-
-    mStackedCombineCount += combineCount;
-
-    SetIsChangedData(true);
-
-    return (nextData.id, combineCount);
-}
-
 // 장비 강화
 public void UpgradeEquipment(string id, int upgradeCount)
 {
@@ -169,9 +129,45 @@ public int ReforgeEquipment(string id)
     }
 }
 
+// 장비 합성
+public (string id, int combineCount) CombineItem(string id)
+{
+    // 내가 가지고 있는 장비인지 확인
+    if (HaveItem(id) == false)
+        return (string.Empty, 0);
 
+    EquipmentData data = DataUtil.GetEquipmentData(id);
+    if (data == null)
+        return (string.Empty, 0);
 
-```
+    // combineCount가 없다면 합성 진행이 불가능한 것
+    if (data.combineCount == 0)
+        return (string.Empty, 0);
+
+    // 합성에 필요한 장비 갯수가 충분한지 확인
+    EquipmentInst equipItem = GetEquipItem(id);
+    if (equipItem.IsEnoughCount(data.combineCount) == false)
+        return (string.Empty, 0);
+
+    int combineCount = equipItem.GetCount() / data.combineCount;
+    int useCount = data.combineCount * combineCount;
+
+    // 다음 등급 장비 데이터를 확인
+    // 데이터가 없다면 뭔가 잘 못된 것
+    EquipmentData nextData = DataUtil.GetNextGradeEquipmentData(data.type, data.grade, data.subGrade);
+    if (nextData == null)
+        return (string.Empty, 0);
+
+    // 합성 횟수만큼 장비 사용
+    if (equipItem.UseCount(useCount) == false)
+        return (string.Empty, 0);
+
+    mStackedCombineCount += combineCount;
+
+    SetIsChangedData(true);
+
+    return (nextData.id, combineCount);
+}
 
 ---
 
