@@ -22,6 +22,10 @@
   - **서브 등급**: 1성 ⭐ ~ 5성 ⭐⭐⭐⭐⭐
 - 예시: `D등급 5성 장비 3개` → `C등급 1성 장비`로 합성됨
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d3354a8a-faee-4317-98b4-fa002e6fad60" width="280"/>
+</p>
+
 ---
 
 ## 🔁 시스템 흐름 요약
