@@ -26,7 +26,7 @@
 
   </td>
   <td style="width:40%;" align="center">
-    <img src="https://github.com/user-attachments/assets/1106e27e-4458-45d5-baed-7add61adcf9a" width="280"/>
+    <img src="https://github.com/user-attachments/assets/1106e27e-4458-45d5-baed-7add61adcf9a" width="280" style="aspect-ratio: 9/16;"/>
   </td>
 </tr>
 </table>
@@ -48,7 +48,7 @@
 
   </td>
   <td style="width:40%;" align="center">
-    <img src="https://github.com/user-attachments/assets/bd1c2bec-be53-41e4-9d6f-0969517c96ce" width="280"/>
+    <img src="https://github.com/user-attachments/assets/bd1c2bec-be53-41e4-9d6f-0969517c96ce" width="280" style="aspect-ratio: 9/16;"/>
   </td>
 </tr>
 </table>
