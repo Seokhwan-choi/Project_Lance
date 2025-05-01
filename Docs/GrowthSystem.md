@@ -10,7 +10,7 @@
 <tr>
   <td valign="top" style="padding-right:20px">
 
-<h3>🪙 골드 훈련</h3>
+<h3>💰 골드 훈련</h3>
 
 <p>몬스터 처치 시 획득한 <strong>골드</strong>로 능력치를 직접 강화할 수 있습니다.</p>
 
