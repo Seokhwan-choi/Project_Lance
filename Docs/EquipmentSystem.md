@@ -168,7 +168,7 @@ public (string id, int combineCount) CombineItem(string id)
 
     return (nextData.id, combineCount);
 }
-
+```
 ---
 
 ## 🧩 관련 클래스
