@@ -9,7 +9,10 @@
 <!-- 골드 훈련 -->
 <table style="width:700px; table-layout:fixed;">
 <tr>
-  <td style="width:420px; vertical-align:top; padding-right:20px;">
+  <td style="width:280px;" align="center">
+    <img src="https://github.com/user-attachments/assets/1106e27e-4458-45d5-baed-7add61adcf9a" width="280" />
+  </td>
+  <td style="width:420px; vertical-align:top; padding-left:20px;">
 
 <h3>💰 골드 훈련</h3>
 
@@ -25,12 +28,6 @@
 
 <p>→ 전투와 성장이 직결되는 <strong>즉각적인 피드백 루프</strong>를 제공합니다.</p>
 
-<!-- 셀 높이 강제 확장 -->
-<div style="min-height:500px;"></div>
-
-  </td>
-  <td style="width:280px;" align="center">
-    <img src="https://github.com/user-attachments/assets/1106e27e-4458-45d5-baed-7add61adcf9a" width="280"/>
   </td>
 </tr>
 </table>
@@ -40,7 +37,10 @@
 <!-- 레벨업 & AP 시스템 -->
 <table style="width:700px; table-layout:fixed;">
 <tr>
-  <td style="width: 420px; vertical-align:top; padding-right:20px;">
+  <td style="width:280px;" align="center">
+    <img src="https://github.com/user-attachments/assets/bd1c2bec-be53-41e4-9d6f-0969517c96ce" width="280" />
+  </td>
+  <td style="width:420px; vertical-align:top; padding-left:20px;">
 
 <h3>🆙 레벨업 & AP 시스템</h3>
 
@@ -50,15 +50,10 @@
   <li>AP를 사용하여 캐릭터의 특성을 강화할 수 있습니다</li>
 </ul>
 
-<!-- 셀 높이 강제 확장 -->
-<div style="min-height:500px;"></div>
-
-  </td>
-  <td style="width:280px;" align="center">
-    <img src="https://github.com/user-attachments/assets/bd1c2bec-be53-41e4-9d6f-0969517c96ce" width="280"/>
   </td>
 </tr>
 </table>
+
 
 ---
 
