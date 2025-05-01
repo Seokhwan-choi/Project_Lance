@@ -25,7 +25,7 @@
 <p>→ 전투와 성장이 직결되는 <strong>즉각적인 피드백 루프</strong>를 제공합니다.</p>
 
   </td>
-  <td align="center">
+  <td style="width:280px;" align="center">
     <img src="https://github.com/user-attachments/assets/1106e27e-4458-45d5-baed-7add61adcf9a" width="280"/>
   </td>
 </tr>
@@ -46,7 +46,7 @@
 </ul>
 
   </td>
-  <td align="center">
+  <td style="width:280px;" align="center">
     <img src="https://github.com/user-attachments/assets/bd1c2bec-be53-41e4-9d6f-0969517c96ce" width="280"/>
   </td>
 </tr>
