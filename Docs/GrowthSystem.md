@@ -6,7 +6,7 @@
 
 ## ✅ 주요 성장 루프
 
-<table width="700">
+<table style="table-layout:fixed; width:100%;">
 <tr>
   <td style="width:60%; vertical-align:top; padding-right:20px;">
 
@@ -33,7 +33,7 @@
 
 ---
 
-<table width="700">
+<table style="table-layout:fixed; width:100%;">
 <tr>
   <td style="width:60%; vertical-align:top; padding-right:20px;">
 
