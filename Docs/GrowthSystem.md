@@ -6,6 +6,9 @@
 
 ## ✅ 주요 성장 루프
 
+<table>
+
+<td>
 ### 🪙 골드 훈련
 
 - 몬스터 처치 시 획득한 **골드**로 능력치를 직접 강화할 수 있습니다.
@@ -17,11 +20,12 @@
   - 골드 획득량 / 경험치 획득량 증가
 
 → 전투와 성장이 직결되는 **즉각적인 피드백 루프**를 제공합니다.
+</td>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/1106e27e-4458-45d5-baed-7add61adcf9a" width="300"/>
-</p>
-
+<tr>
+<td><img src="https://github.com/user-attachments/assets/1106e27e-4458-45d5-baed-7add61adcf9a" width="300"/></td>
+</tr>
+</table>
 
 
 ---
