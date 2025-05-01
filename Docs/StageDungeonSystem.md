@@ -53,7 +53,5 @@ Beginner → Easy → Normal → Hard → Expert → Master → Hyper → Anothe
 - `DungeonManager.cs`
 - `StageDifficulty` (Enum)
 - `DungeonType` (Enum)
-- `BossSpawnController.cs`
-- `StageProgressData.cs`
 
 ---
