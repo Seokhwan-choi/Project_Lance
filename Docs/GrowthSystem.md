@@ -47,7 +47,7 @@
   - 성장에 대한 장기 목표 제공
 
 <p align="center">
-  <img src="Docs/참고이미지/clip_38_to_40.gif" width="300"/>
+  <img src="참고이미지/clip_38_to_40.gif" width="300"/>
 </p>
 
 ---
