@@ -23,6 +23,10 @@
 - **신수의 먹이**를 통해 레벨업 가능하며, 먹이는 몬스터 사냥 시 획득
 - 각 단계의 최고 레벨에 도달하면 **속성석을 소모하여 다음 단계로 진화**
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d77ba32a-22ee-49ea-8eb9-39fff5bcaa99" width="280"/>
+</p>
+
 ---
 
 ## 🧩 신수 특성 시스템
