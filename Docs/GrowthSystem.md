@@ -10,22 +10,24 @@
 <table style="width:700px; table-layout:fixed;">
 <tr>
   <td style="width:420px; vertical-align:top; padding-right:20px;">
-    <h3>💰 골드 훈련</h3>
 
-    <p>몬스터 처치 시 획득한 <strong>골드</strong>로 능력치를 직접 강화할 수 있습니다.</p>
+<h3>💰 골드 훈련</h3>
 
-    <ul>
-      <li>공격력 / 체력</li>
-      <li>치명타 확률 / 치명타 데미지</li>
-      <li>슈퍼 크리티컬 확률 / 데미지</li>
-      <li>불 / 물 / 풀 속성 데미지</li>
-      <li>골드 획득량 / 경험치 획득량 증가</li>
-    </ul>
+<p>몬스터 처치 시 획득한 <strong>골드</strong>로 능력치를 직접 강화할 수 있습니다.</p>
 
-    <p>→ 전투와 성장이 직결되는 <strong>즉각적인 피드백 루프</strong>를 제공합니다.</p>
+<ul>
+  <li>공격력 / 체력</li>
+  <li>치명타 확률 / 치명타 데미지</li>
+  <li>슈퍼 크리티컬 확률 / 데미지</li>
+  <li>불 / 물 / 풀 속성 데미지</li>
+  <li>골드 획득량 / 경험치 획득량 증가</li>
+</ul>
 
-    <!-- 정렬 맞추기용 더미 줄 -->
-    <p style="visibility:hidden;">이 줄은 너비를 맞추기 위한 더미입니다. 이 줄은 너비를 맞추기 위한 더미입니다. 이 줄은 너비를 맞추기 위한 더미입니다.</p>
+<p>→ 전투와 성장이 직결되는 <strong>즉각적인 피드백 루프</strong>를 제공합니다.</p>
+
+<!-- 셀 높이 강제 확장 -->
+<div style="min-height:500px;"></div>
+
   </td>
   <td style="width:280px;" align="center">
     <img src="https://github.com/user-attachments/assets/1106e27e-4458-45d5-baed-7add61adcf9a" width="280"/>
@@ -38,19 +40,19 @@
 <!-- 레벨업 & AP 시스템 -->
 <table style="width:700px; table-layout:fixed;">
 <tr>
-  <td style="width:420px; vertical-align:top; padding-right:20px;">
-    <h3>🆙 레벨업 & AP 시스템</h3>
+  <td style="width: 420px; vertical-align:top; padding-right:20px;">
 
-    <ul>
-      <li>몬스터 처치 시 <strong>경험치</strong>를 획득하여 레벨업</li>
-      <li>레벨업 시 <strong>AP (Ability Point)</strong>를 획득</li>
-      <li>AP를 사용하여 캐릭터의 특성을 강화할 수 있습니다</li>
-    </ul>
+<h3>🆙 레벨업 & AP 시스템</h3>
 
-    <p>특성 강화는 일반 능력치 외에도 <strong>패시브 성향</strong>에 영향을 줄 수 있습니다.</p>
+<ul>
+  <li>몬스터 처치 시 <strong>경험치</strong>를 획득하여 레벨업</li>
+  <li>레벨업 시 <strong>AP (Ability Point)</strong>를 획득</li>
+  <li>AP를 사용하여 캐릭터의 특성을 강화할 수 있습니다</li>
+</ul>
 
-    <!-- 정렬 맞추기용 더미 줄 -->
-    <p style="visibility:hidden;">이 줄은 너비를 맞추기 위한 더미입니다. 이 줄은 너비를 맞추기 위한 더미입니다. 이 줄은 너비를 맞추기 위한 더미입니다.</p>
+<!-- 셀 높이 강제 확장 -->
+<div style="min-height:500px;"></div>
+
   </td>
   <td style="width:280px;" align="center">
     <img src="https://github.com/user-attachments/assets/bd1c2bec-be53-41e4-9d6f-0969517c96ce" width="280"/>
