@@ -20,6 +20,10 @@ Beginner → Easy → Normal → Hard → Expert → Master → Hyper → Anothe
 - 각 스테이지의 **보스를 처치하면 클리어**됩니다
 - 모든 챕터를 클리어해야 상위 난이도로 진입할 수 있습니다
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/187ffde2-2030-4a34-833d-be33308a136c" width="280"/>
+</p>
+
 ---
 
 ## 🏰 던전 시스템
@@ -38,8 +42,9 @@ Beginner → Easy → Normal → Hard → Expert → Master → Hyper → Anothe
 | **제1 마계** | 80단계 | 장신구, 마나의 정수 |
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/187ffde2-2030-4a34-833d-be33308a136c" width="280"/>
-  <img src="https://github.com/user-attachments/assets/df9a59c7-bc97-403e-bef9-177474b57171" width="280"/>
+  <img src="https://github.com/user-attachments/assets/e52640d7-13ff-4b13-8b13-3a52c8f70f5e" width="280" style="margin-right: 16px;" />
+  <img src="https://github.com/user-attachments/assets/df9a59c7-bc97-403e-bef9-177474b57171" width="280" style="margin-right: 16px;" />
+  <img src="https://github.com/user-attachments/assets/5caa2b78-b26f-474c-a312-b29c1a034463" width="280"/>
 </p>
 
 ---
