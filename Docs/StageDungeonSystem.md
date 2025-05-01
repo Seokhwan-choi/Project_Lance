@@ -15,10 +15,10 @@
 Beginner → Easy → Normal → Hard → Expert → Master → Hyper → Another → Legend → Hell → Chaos → Nightmare → Inferno → Void → Despair → Curse → Oblivion → Ruin → Darkness → Pain → Terror → Abyss → Eternal → Pandemonium → Cataclysm → Apocalypse → Fury → Wrath
 ```
 
-- 각 난이도는 **5개의 챕터**로 구성되며
-- **챕터당 20개 스테이지** 존재
-- 각 스테이지의 **보스를 처치하면 클리어**됩니다
-- 모든 챕터를 클리어해야 상위 난이도로 진입할 수 있습니다
+- 각 난이도는 **5개의 챕터**로 구성됩니다.
+- **챕터당 20개 스테이지**로 구성됩니다.
+- 각 스테이지의 **보스를 처치하면 클리어**됩니다.
+- 모든 챕터를 클리어해야 다음 난이도로 진입할 수 있습니다.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/187ffde2-2030-4a34-833d-be33308a136c" width="280"/>
@@ -51,9 +51,9 @@ Beginner → Easy → Normal → Hard → Expert → Master → Hyper → Anothe
 
 ## 💡 설계 의도
 
-- 난이도 체계는 도전욕을 유발하며 성장 성취감을 제공합니다
-- 던전은 일일 반복 콘텐츠로, **재화 수급 루프의 중심 축** 역할을 합니다
-- **속성 기반 레이드 시스템**은 전략적인 캐릭터 육성과 장비 세팅을 유도합니다
+- 난이도 체계는 도전욕을 유발하며 성장 성취감을 제공합니다.
+- 던전은 일일 반복 콘텐츠로, **재화 수급 루프의 중심 축** 역할을 합니다.
+- **속성 기반 레이드 시스템**은 전략적인 캐릭터 육성과 장비 세팅을 유도합니다.
 
 ---
 
