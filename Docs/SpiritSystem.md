@@ -12,6 +12,10 @@
 - 플레이어는 **한 마리의 신수만 동행**할 수 있으며,  
   **동행한 신수의 속성 = 플레이어의 공격 속성**을 결정합니다.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/75d03a26-dc80-4ed8-a0ee-80f1bb35e2da" width="280"/>
+</p>
+
 ---
 
 ## 🌱 신수 성장 구조
