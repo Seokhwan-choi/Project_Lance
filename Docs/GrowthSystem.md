@@ -8,7 +8,7 @@
 
 <table style="table-layout:fixed; width:100%;">
 <tr>
-  <td style="min-width: 400px; vertical-align:top; padding-right:20px;">
+  <td style="width: 420px; vertical-align:top; padding-right:20px;">
 
 <h3>💰 골드 훈련</h3>
 
@@ -25,7 +25,7 @@
 <p>→ 전투와 성장이 직결되는 <strong>즉각적인 피드백 루프</strong>를 제공합니다.</p>
 
   </td>
-  <td style="width:60%;" align="center">
+  <td align="center">
     <img src="https://github.com/user-attachments/assets/1106e27e-4458-45d5-baed-7add61adcf9a" width="280"/>
   </td>
 </tr>
@@ -35,7 +35,7 @@
 
 <table style="table-layout:fixed; width:100%;">
 <tr>
-  <td style="min-width: 400px; vertical-align:top; padding-right:20px;">
+  <td style="width: 420px; vertical-align:top; padding-right:20px;">
 
 <h3>🆙 레벨업 & AP 시스템</h3>
 
@@ -46,7 +46,7 @@
 </ul>
 
   </td>
-  <td style="width:60%;" align="center">
+  <td align="center">
     <img src="https://github.com/user-attachments/assets/bd1c2bec-be53-41e4-9d6f-0969517c96ce" width="280"/>
   </td>
 </tr>
