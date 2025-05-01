@@ -7,7 +7,6 @@
 ## ✅ 주요 성장 루프
 
 <table>
-
 <tr>
   <td>
 ### 🪙 골드 훈련
@@ -21,8 +20,11 @@
   - 골드 획득량 / 경험치 획득량 증가
 
 → 전투와 성장이 직결되는 **즉각적인 피드백 루프**를 제공합니다.
-</td>
-<img src="https://github.com/user-attachments/assets/1106e27e-4458-45d5-baed-7add61adcf9a" width="300"/></td>
+
+  </td>
+  <td width="300" align="center">
+    <img src="https://github.com/user-attachments/assets/1106e27e-4458-45d5-baed-7add61adcf9a" width="300"/>
+  </td>
 </tr>
 </table>
 
