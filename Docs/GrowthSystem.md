@@ -6,34 +6,20 @@
 
 ## ✅ 주요 성장 루프
 
-<!-- 골드 훈련 -->
-<table style="width:700px; table-layout:fixed;">
-<tr>
-  <td style="width:420px; vertical-align:top; padding-right:20px;">
+### 💰 골드 훈련
 
-<h3>💰 골드 훈련</h3>
+- 몬스터 처치 시 획득한 **골드**로 능력치를 직접 강화할 수 있습니다.
+- 강화 항목:
+  - 공격력 / 체력
+  - 치명타 확률 / 데미지
+  - 속성 데미지 (불 / 물 / 풀)
+  - 골드 / 경험치 획득량 증가
 
-<p>몬스터 처치 시 획득한 <strong>골드</strong>로 능력치를 직접 강화할 수 있습니다.</p>
+→ 전투와 성장이 직결되는 **즉각적인 피드백 루프**를 제공합니다.
 
-<ul>
-  <li>공격력 / 체력</li>
-  <li>치명타 확률 / 치명타 데미지</li>
-  <li>슈퍼 크리티컬 확률 / 데미지</li>
-  <li>불 / 물 / 풀 속성 데미지</li>
-  <li>골드 획득량 / 경험치 획득량 증가</li>
-</ul>
-
-<p>→ 전투와 성장이 직결되는 <strong>즉각적인 피드백 루프</strong>를 제공합니다.</p>
-
-<!-- 셀 높이 강제 확장 -->
-<div style="min-height:500px;"></div>
-
-  </td>
-  <td style="width:280px;" align="center">
-    <img src="https://github.com/user-attachments/assets/1106e27e-4458-45d5-baed-7add61adcf9a" width="280"/>
-  </td>
-</tr>
-</table>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1106e27e-4458-45d5-baed-7add61adcf9a" width="280"/>
+</p>
 
 ---
 
