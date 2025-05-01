@@ -8,7 +8,7 @@
 
 <table style="table-layout:fixed; width:100%;">
 <tr>
-  <td style="width:40%; vertical-align:top; padding-right:20px;">
+  <td style="min-width: 400px; vertical-align:top; padding-right:20px;">
 
 <h3>💰 골드 훈련</h3>
 
@@ -35,7 +35,7 @@
 
 <table style="table-layout:fixed; width:100%;">
 <tr>
-  <td style="width:40%; vertical-align:top; padding-right:20px;">
+  <td style="min-width: 400px; vertical-align:top; padding-right:20px;">
 
 <h3>🆙 레벨업 & AP 시스템</h3>
 
