@@ -49,7 +49,7 @@
 
   </td>
   <td width="300" align="center">
-    <img src="https://github.com/user-attachments/assets/bd1c2bec-be53-41e4-9d6f-0969517c96ce" width="280"/>
+    <img src="https://github.com/user-attachments/assets/bd1c2bec-be53-41e4-9d6f-0969517c96ce" width="300"/>
   </td>
 </tr>
 </table>
