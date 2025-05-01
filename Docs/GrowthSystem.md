@@ -19,7 +19,7 @@
 → 전투와 성장이 직결되는 **즉각적인 피드백 루프**를 제공합니다.
 
 <p align="center">
-  <img ![Image](https://github.com/user-attachments/assets/1106e27e-4458-45d5-baed-7add61adcf9a) width="300"/>
+  <img src="https://github.com/user-attachments/assets/1106e27e-4458-45d5-baed-7add61adcf9a" width="300"/>
 </p>
 
 
