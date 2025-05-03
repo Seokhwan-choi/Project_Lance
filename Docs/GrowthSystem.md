@@ -68,7 +68,7 @@
 
 ---
 
-## 🧩 관련 클래스
+## 📁 관련 클래스
 
 - `GrowthManager.cs`
 - `TrainingSystem.cs`
