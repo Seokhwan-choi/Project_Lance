@@ -48,4 +48,4 @@ Unity로 개발한 2D 방치형 RPG 게임입니다. 자동 전투, 성장, 장�
 - [장비 시스템](./Docs/EquipmentSystem.md)
 - [신수 시스템](./Docs/SpiritSystem.md)
 - [스테이지 및 던전 시스템](./Docs/StageDungeonSystem.md)
-- [코스튬 시스템](.Docs/CostumeSystem.md)
+- [코스튬 시스템](./Docs/CostumeSystem.md)
