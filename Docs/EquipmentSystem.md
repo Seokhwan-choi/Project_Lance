@@ -183,7 +183,7 @@ public (string id, int combineCount) CombineItem(string id)
 
 ---
 
-## 🧩 관련 클래스
+## 📁 관련 클래스
 
 - `Inventory.cs`
 - `Equipment.cs`
