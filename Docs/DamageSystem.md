@@ -46,7 +46,7 @@ if (attacker.Stat.ManaSensitivity > 0 || defender.Stat.ManaSensitivity > 0)
 
 ---
 
-## 🧩 관련 클래스
+## 📁 관련 클래스
 
 - `DamageCalculator.cs`  
 - `DamageInst.cs`  
