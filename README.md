@@ -1,5 +1,7 @@
 # 모바일 방치형 RPG - 랜스키우기
 
+![Image](https://github.com/user-attachments/assets/3ae4c7e6-d56b-410e-8967-7237dc219203)
+
 Unity로 개발한 2D 방치형 RPG 게임입니다. 자동 전투, 성장, 장비 강화/재련, 신수(펫), 던전 등 다양한 RPG 요소를 구현하였으며, UI/UX 흐름과 데이터 흐름까지 모두 직접 설계 및 개발하였습니다.
 
 ---
