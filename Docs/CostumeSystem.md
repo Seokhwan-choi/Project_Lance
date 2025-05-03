@@ -8,12 +8,16 @@
 ## 🎨 시스템 개요
 
 - 캐릭터는 다음 부위별로 코스튬을 착용할 수 있습니다:
-  - 머리 (Helmet)
-  - 몸통 (Armor)
-  - 장갑 (Gloves)
-  - 신발 (Shoes)
   - 무기 (Weapon)
+  - 몸통 (Armor)
+  - 악세사리 (Etc)
 - 각 코스튬은 전용 스프라이트로 구성되어 있으며, **Sprite Resolver**를 통해 교체됩니다.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ef5a010e-c2b4-4cc3-98a4-42b5e3d8d871" width="280" style="margin-right: 16px;" />
+  <img src="https://github.com/user-attachments/assets/da12dad6-34ba-4e83-9794-f56b4c49b900" width="280" style="margin-right: 16px;" />
+  <img src="https://github.com/user-attachments/assets/3672a81b-073e-43f4-af0e-b16378e702ee" width="280"/>
+</p>
 
 ---
 
@@ -46,14 +50,16 @@
 ## 🧪 활용 예시
 
 ```csharp
-spriteResolver.SetCategoryAndLabel("Helmet", "Knight_Helmet_01");
-spriteResolver.SetCategoryAndLabel("Weapon", "Magic_Spear_03");
+mAnim.SetBodyLibraryAsset(mSpriteLibraryAssetData.libraryAsset);
+mAnim.SetHandLibraryAsset(handLibraryAsset);
+mAnim.SetEtcLibraryAsset(etcLibrearyAsset, orderInLayer);
+mWeaponRenderer.sprite = Lance.Atlas.GetPlayerSprite(weaponSprite);
 ```
 
 ---
 
 ## 📁 관련 클래스
 
-- `CostumeManager.cs`  
-- `SpriteResolverHandler.cs`  
-- `CharacterCostumeSlot.cs`
+- `Costume.cs`  
+- `LibraryAssetData.cs`  
+- `CharacterAnim.cs`
