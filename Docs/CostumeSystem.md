@@ -26,6 +26,8 @@
 **Unity 2D Animation Package**에서 제공하는 기능으로,  
 `Sprite Library`와 연동하여 코드나 데이터에서 **스프라이트 교체를 쉽게 처리**할 수 있는 시스템입니다.
 
+![Image](https://github.com/user-attachments/assets/17d3860b-87e7-4f79-9952-8c51b68aa4f1)
+
 ---
 
 ## ✅ Sprite Resolver의 장점
