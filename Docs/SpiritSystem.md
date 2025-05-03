@@ -63,7 +63,7 @@
 
 ---
 
-## 🧩 관련 클래스
+## 📁 관련 클래스
 
 - `Pet.cs`
 - `Account_PetUtil.cs`
