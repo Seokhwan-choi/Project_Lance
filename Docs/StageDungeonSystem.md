@@ -57,7 +57,7 @@ Beginner → Easy → Normal → Hard → Expert → Master → Hyper → Anothe
 
 ---
 
-## 🧩 관련 클래스 및 데이터 구조 예시
+## 📁 관련 클래스 및 데이터 구조 예시
 
 - `StageManager.cs`
 - `DungeonManager.cs`
